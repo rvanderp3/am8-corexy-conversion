@@ -92,10 +92,10 @@ __Note: It is highly recommended that you have a second 3D printer for printing 
 
 Print the parts.  Supports are recommended. Use 40% infill.
 
-
-
-
-
+## tuning
+Tuning bowden extruder often requires a slightly different set of starting values than a direct drive.  Then length of the tube results in a lesser impact of retraction on the backpressure at the nozzle tip. Tube itself stores energy that can continue to apply pressure to the filament and cause oozing, blabbing, etc...
+- retraction, 5 - 10% length of bowden tube
+- pressure advance, 1s, .12s
 
 
 
