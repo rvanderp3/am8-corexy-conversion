@@ -97,5 +97,22 @@ Tuning bowden extruder often requires a slightly different set of starting value
 - retraction, 5 - 10% length of bowden tube
 - pressure advance, 1s, .12s
 
+- 
+### Flow Rate
+
+Test Conditions:
+- Room Temp: 26C
+- Bed Temp: 60C
+- Nozzle height off bed: 4mm
+
+| Nozzle Diameter | Extruder Temp(C) | Filament Type | Volumetric Flow |
+|-----------------|------------------|---------------|-----------------|
+| 0.4mm           | 220C             | PLA           | 19.2 mm^3/s     |
+|                 | 210C             | PLA           | 16.8 mm^3/s     |
+|                 | 205C             | PLA           | 16.8 mm^3/s     |
+|                 | 200C             | PLA           | 12 mm^3/s     |
+|-----------------|------------------|---------------|-----------------|
+
+
 
 
